@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易遊戲庫</string>
+    <string name="gamelobby">遊戲大廳</string>
+    <string name="tictacteo_text">OOXX</string>
+    <string name="comingsoon">即將更新</string>
+    <string name="guessnumber_text">1A2B</string>
+    <string name="play_again_text">再試一次</string>
+    <string name="how_many_player_text">多少玩家 ?</string>
+    <string name="guesshistory_text">猜測紀錄 :</string>
+    <string name="recheck_text">驗證答案</string>
+    <string name="restart_text">新遊戲</string>
+    <string name="input_four_number">請輸入4位不重複的數字</string>
+    <string name="congratulations">恭喜你猜對了！答案是</string>
+</resources>

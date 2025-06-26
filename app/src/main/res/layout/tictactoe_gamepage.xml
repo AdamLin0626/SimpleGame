@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/main_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicTacToe_GamePage">
+
+    <!-- res/layout/activity_game_ooxx.xml -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- 3x3 棋盤 -->
+        <GridLayout
+            android:id="@+id/PlayZone"
+            android:layout_width="350sp"
+            android:layout_height="350sp"
+            android:layout_marginBottom="24dp"
+            android:columnCount="3"
+            android:rowCount="3" />
+
+        <!-- 重玩按鈕 -->
+        <Button
+            android:id="@+id/ResetButton"
+            android:layout_width="256sp"
+            android:layout_height="100sp"
+            android:background="@drawable/rounded_rectangle_button"
+            android:backgroundTint="@color/sub_color"
+            android:gravity="center"
+            android:text="@string/restart_text"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

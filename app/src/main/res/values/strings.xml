@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SimpleGame</string>
+    <string name="gamelobby">GameLobby</string>
+    <string name="tictacteo_text">TicTacTeo</string>
+    <string name="guessnumber_text">GuessNumber</string>
+    <string name="comingsoon">ComingSoon</string>
+    <string name="play_again_text">Play Again</string>
+    <string name="how_many_player_text">How many Player ?</string>
+    <string name="guesshistory_text">GuessHistory :</string>
+    <string name="recheck_text">Checking Number</string>
+    <string name="restart_text">New Game</string>
+    <string name="input_four_number">Input 4 Different Numbers</string>
+    <string name="congratulations">Congratulations！Answer is</string>
+</resources>

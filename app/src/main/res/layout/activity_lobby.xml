@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/main_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lobby">
+
+    <TextView
+        android:id="@+id/Title_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="@string/gamelobby"
+        android:textSize="45sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/TicTacToe_GameBtn"
+        android:layout_width="275sp"
+        android:layout_height="65sp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_rectangle_button"
+        android:backgroundTint="@color/sub_color"
+        android:gravity="center"
+        android:text="@string/tictacteo_text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title_Text" />
+
+    <Button
+        android:id="@+id/GuessNumber_GameBtn"
+        android:layout_width="275sp"
+        android:layout_height="65sp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_rectangle_button"
+        android:backgroundTint="@color/sub_color"
+        android:gravity="center"
+        android:text="@string/guessnumber_text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TicTacToe_GameBtn" />
+
+    <Button
+        android:id="@+id/game3Button"
+        android:layout_width="275sp"
+        android:layout_height="65sp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_rectangle_button"
+        android:backgroundTint="@color/sub_color"
+        android:gravity="center"
+        android:text="@string/comingsoon"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GuessNumber_GameBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
