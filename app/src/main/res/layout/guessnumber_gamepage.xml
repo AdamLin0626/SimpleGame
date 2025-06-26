@@ -28,7 +28,7 @@
             android:background="@drawable/rounded_rectangle_button"
             android:backgroundTint="@color/white"
             android:gravity="center"
-            android:hint="輸入4位不重複數字"
+            android:hint="@string/input_four_number"
             android:inputType="number"
             android:maxLength="4"
             android:textSize="28sp"
@@ -41,7 +41,7 @@
             android:layout_height="50dp"
             android:layout_marginBottom="8dp"
             android:gravity="center"
-            android:text="驗證答案"
+            android:text="@string/recheck_text"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/reStart_Button"
             tools:layout_editor_absoluteX="16dp" />
@@ -50,7 +50,7 @@
             android:id="@+id/reStart_Button"
             android:layout_width="240dp"
             android:layout_height="50dp"
-            android:text="重新開始"
+            android:text="@string/restart_text"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent" />
     </LinearLayout>
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_marginLeft="12dp"
-            android:text="猜測歷史："
+            android:text="@string/guesshistory_text"
             android:textColor="@color/light_green"
             android:textSize="18sp"
             android:textStyle="bold" />
